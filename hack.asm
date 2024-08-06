@@ -7,11 +7,53 @@ CUR_WEAPON      = $fff679
     incbin "batman.md"
 
 ; only A-presses fire weapon
+    org $04ae2c
+            dw      MASK_BUTTON_A
+    org $04af14
+            dw      MASK_BUTTON_A
+    org $04b004
+            dw      MASK_BUTTON_A
     org $04b208
+            dw      MASK_BUTTON_A
+    org $04b318
+            dw      MASK_BUTTON_A
+    org $04b3a2
+            dw      MASK_BUTTON_A
+    org $04b420
             dw      MASK_BUTTON_A
     org $04b4b2
             dw      MASK_BUTTON_A
+    org $04b538
+            dw      MASK_BUTTON_A
     org $04b69e
+            dw      MASK_BUTTON_A
+    org $04b756
+            dw      MASK_BUTTON_A
+    org $04d052
+            dw      MASK_BUTTON_A
+    org $04d968
+            dw      MASK_BUTTON_A
+    org $04da50
+            dw      MASK_BUTTON_A
+    org $04db40
+            dw      MASK_BUTTON_A
+    org $04dd44
+            dw      MASK_BUTTON_A
+    org $04de54
+            dw      MASK_BUTTON_A
+    org $04dede
+            dw      MASK_BUTTON_A
+    org $04df5c
+            dw      MASK_BUTTON_A
+    org $04dfee
+            dw      MASK_BUTTON_A
+    org $04e074
+            dw      MASK_BUTTON_A
+    org $04e1da
+            dw      MASK_BUTTON_A
+    org $04e292
+            dw      MASK_BUTTON_A
+    org $04fb8e
             dw      MASK_BUTTON_A
 
 ; picking up disks never changes weapon
